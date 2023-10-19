@@ -69,7 +69,7 @@ function App() {
         <div className="forecast"></div>
       </div>
       <p className="code-link">
-        <a href="https://github.com/Megan-Woolhouse/weather-app">
+        <a href="https://github.com/Megan-Woolhouse/weather-react">
           Open-source code
         </a>
         by Megan Woolhouse
