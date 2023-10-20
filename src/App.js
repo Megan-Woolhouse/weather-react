@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   let weatherData = {
     city: "Northampton",
     temperature: 19,
@@ -77,5 +77,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
