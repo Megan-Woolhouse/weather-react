@@ -57,7 +57,7 @@ export default function Weather(props) {
             </div>
           </div>
           <WeatherDisplay data={weatherData} />
-          <Forecast url={weatherData.imgUrl} />
+          <Forecast url={weatherData.imgUrl} city={weatherData.city} />
         </div>
       </div>
     );
