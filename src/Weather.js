@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherDisplay from "./WeatherDisplay";
+import Forecast from "./Forecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -56,6 +57,7 @@ export default function Weather(props) {
             </div>
           </div>
           <WeatherDisplay data={weatherData} />
+          <Forecast url={weatherData.imgUrl} />
         </div>
       </div>
     );
