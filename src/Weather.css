@@ -57,28 +57,33 @@ body {
 
 .Weather .current-emoji {
   width: 90px;
-  margin-top: 20px;
+
   padding: 0;
   display: inline;
 }
 .Weather .current {
-  font-size: 30px;
+  font-size: 60x;
   text-align: right;
   padding: 20px 0 0 8px;
   color: rgb(0, 0, 0, 0.5);
   font-weight: 500;
-  line-height: 70%;
+  line-height: 1.5;
 }
-.Weather .current-description {
-  font-size: 18px;
-  text-align: center;
-  line-height: 1;
+.Weather .temp {
+  font-size: 30px;
+  vertical-align: middle;
 }
+
 .Weather .unit {
   font-size: 12px;
   vertical-align: middle;
   text-decoration: none;
   display: inline;
+}
+.Weather .current-description {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1;
 }
 
 .Weather .wind-humidity {
