@@ -81,6 +81,9 @@ body {
   text-decoration: none;
   display: inline;
 }
+.Weather .unit a {
+  text-decoration: none;
+}
 .Weather .current-description {
   font-size: 18px;
   text-align: center;
