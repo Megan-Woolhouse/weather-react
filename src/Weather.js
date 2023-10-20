@@ -40,7 +40,7 @@ export default function Weather(props) {
       <div className="Weather">
         <div className="container shadow">
           <div className="row">
-            <div className="col-10">
+            <div className="col-12">
               <form onSubmit={searchCity}>
                 <input
                   type="search"
@@ -51,9 +51,6 @@ export default function Weather(props) {
                 />
                 <input type="submit" value="Search" className="search-icon" />
               </form>
-            </div>
-            <div className="col-2">
-              <button className="current-location">Current Location</button>
             </div>
           </div>
           <WeatherDisplay data={weatherData} />
